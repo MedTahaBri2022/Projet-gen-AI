@@ -1,0 +1,29 @@
+/* Style for the Streamlit app */
+.stButton > button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.stButton > button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+.stButton > button:active {
+    background-color: #add8e6;
+    transform: scale(1.00);
+    border-radius: 30px;
+}
+.stButton > button.selected {
+    background-color: #add8e6;
+    border-radius: 30px;
+}
